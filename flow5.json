@@ -1,0 +1,50 @@
+[
+    {
+        "id": "e0ce8beb047ae13b",
+        "type": "mqtt in",
+        "z": "e24bdce51e356513",
+        "name": "",
+        "topic": "códigoIoT/flow5/mqtt/clima",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "804d48c89155f842",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 520,
+        "wires": [
+            [
+                "c4b610260548f6bb"
+            ]
+        ]
+    },
+    {
+        "id": "804d48c89155f842",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "18.197.248.71",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
